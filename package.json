@@ -1,0 +1,28 @@
+{
+  "name": "email-sender-app",
+  "version": "1.0.0",
+  "description": "app to send email via gmail",
+  "main": "app.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avanishmishra-atos/EmailSenderApp.git"
+  },
+  "keywords": [
+    "emailsender"
+  ],
+  "author": "Avanish Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avanishmishra-atos/EmailSenderApp/issues"
+  },
+  "homepage": "https://github.com/avanishmishra-atos/EmailSenderApp#readme",
+  "dependencies": {
+    "@types/node": "^12.0.8",
+    "google-auth-library": "^4.2.0",
+    "nodemailer": "^6.2.1",
+    "yargs": "^13.2.4"
+  }
+}
